@@ -2,7 +2,7 @@
 
 body {
   padding-top: 2em;
-  background-color: #c02227;
+  background-color: #14406eba;
 }
 
 .circle-container {
@@ -115,7 +115,7 @@ body {
 
 .container div i {
     font-size: 200px;
-    color: gold;
+    color: yellowgreen;
 }
 
 .animate{

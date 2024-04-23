@@ -4,12 +4,13 @@ const money = document.querySelector('.container .left i');
 const users = document.querySelector('.container .right i');
 const timerContainer = document.querySelector('.timer-container');
 let timer = document.querySelector('.timer');
-
+let sound = new Audio('action.mp3');
 
 
 
 circleContainer.addEventListener('click', () =>{
     let duration = 5;
+    sound.play();
     const interval = setInterval(() => {
         countdown.innerHTML = `<span>${duration}</span>`;
         duration--;

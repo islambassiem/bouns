@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="countdown-container">
+        <div id="countdown" class="countdown"></div>
+    </div>
     <div class="circle-container">
         <div class="outer-ring"></div>
         <!-- Used for more of a gyroscope type effect

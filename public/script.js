@@ -11,7 +11,6 @@ let countdownTimer = new Audio('countdown.m4a');
 
 circleContainer.addEventListener('click', () =>{
     let duration = 10;
-    countdownTimer.currentTime = 3;
     countdownTimer.play();
     const interval = setInterval(() => {
         countdown.innerHTML = `<span>${duration}</span>`;

@@ -5,12 +5,14 @@ const users = document.querySelector('.container .right i');
 const timerContainer = document.querySelector('.timer-container');
 let timer = document.querySelector('.timer');
 let sound = new Audio('action.mp3');
+let countdownTimer = new Audio('countdown.m4a');
 
 
 
 circleContainer.addEventListener('click', () =>{
-    let duration = 5;
-    sound.play();
+    let duration = 10;
+    countdownTimer.currentTime = 3;
+    countdownTimer.play();
     const interval = setInterval(() => {
         countdown.innerHTML = `<span>${duration}</span>`;
         duration--;
@@ -23,7 +25,7 @@ circleContainer.addEventListener('click', () =>{
         money.classList.add('animate');
         users.classList.add('reverse');
         imgContainer.classList.add('money');
-    }, 6000);
+    }, 12000);
     // let timerInterval;
     // Swal.fire({
     // title: "Time for money!",

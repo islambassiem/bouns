@@ -22,7 +22,7 @@
                 <p>START</p>
             </div>
             <div class="back">
-                <img class="back-logo" src="https://scth.scene7.com/is/image/scth/currencies-and-payment-sarticle-card-desktop:crop-1160x650?defaultImage=currencies-and-payment-sarticle-card-desktop&wid=2000&hei=1120" alt="The Elevation Group Logo" />
+                <img class="back-logo" src="https://csmonline.net/assets/img/logo.png" alt="The Elevation Group Logo" />
             </div>
         </div>
     </div>

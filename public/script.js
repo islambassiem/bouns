@@ -25,7 +25,8 @@ circleContainer.addEventListener('click', () =>{
         money.classList.add('animate');
         users.classList.add('reverse');
         imgContainer.classList.add('money');
-    }, 12000);
+        countdownTimer.pause();
+    }, 12700);
     // let timerInterval;
     // Swal.fire({
     // title: "Time for money!",
